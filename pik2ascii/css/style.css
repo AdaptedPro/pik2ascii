@@ -1,0 +1,41 @@
+#ascii-image {
+    width:100%;
+    color: #333;
+    resize:none;
+}
+
+.sm_message { display:none; }
+
+@media (max-width: 600px) {
+    #ascii-image {
+        width:500px;
+        word-wrap:normal;
+        margin:0 auto;
+        color: #333;
+    } 
+    
+    #asc-content {
+    	width:320px;
+    	margin:auto;
+    	overflow:auto;
+    }
+    .sm_message { display:block; }  
+}
+
+@media (max-width: 991px) {
+    #ascii-image {
+        line-height: .9em!important;
+    }  
+}
+
+h1,h2,h3,h4,h5 { font-family: 'Rammetto One', cursive; }
+.output {
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 8px!important;
+    letter-spacing: 2px;
+    line-height: .5em;    
+}
+
+a, a:hover {
+    text-decoration:none;
+}
