@@ -8,7 +8,7 @@
 
 @media (max-width: 600px) {
     #ascii-image {
-        width:500px;
+        width:900px;
         word-wrap:normal;
         margin:0 auto;
         color: #333;
